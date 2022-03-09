@@ -1,5 +1,5 @@
 ---
-title: Demo API Portal
+title: Developer Portal
 ---
 
 import {
@@ -28,14 +28,14 @@ export default LandingLayout;
 
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1>API Documentation</H1>
+  <H2>Find some sick API docs by clicking the below button</H2>
   <Flex p={20} justifyContent="center">
     {/* <Button size="xlarge" to="https://app.redoc.ly">
       Redocly app
     </Button> */}
      <Button variant="outlined" size="xlarge" to="developer-portal/index.md">
-      Get started
+      Sick API Docs
     </Button>
     {/* <Button variant="outlined" size="xlarge" to="https://redoc.ly/docs">
       Docs
@@ -44,7 +44,7 @@ export default LandingLayout;
 </Jumbotron>
 <Box my={25}>
   <SectionHeader>
-    Create your <Emphasis> developer portal </Emphasis> today!
+    Find <Emphasis> developer specific </Emphasis> API documentation!
   </SectionHeader>
   <FlexSection justifyContent="space-around" flexWrap="wrap">
     <ThinTile to="developer-portal/index.md" icon={icon1} header="Rock">

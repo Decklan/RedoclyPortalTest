@@ -1,4 +1,8 @@
 type: reference-docs
 definitionId: weatherforecast
 settings:
-  jsonSampleExpandLevel: 'all'
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: JavaScript
+      - lang: Node.js
