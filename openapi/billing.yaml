@@ -9,7 +9,7 @@ paths:
       tags:
         - Billing
       summary: Pay a bill.. cuz bills need to be paid ya know?
-      description: "Sample Request\r\nPOST /Billing/PayBill\r\n{\r\n    \"firstName\": \"Joe\",\r\n    \"lastName\": \"Schmoe\",\r\n    \"amount\": 50.00,\r\n    \"accountNumber\": 12345\r\n}"
+      # description: "Sample Request\r\nPOST /Billing/PayBill\r\n{\r\n    \"firstName\": \"Joe\",\r\n    \"lastName\": \"Schmoe\",\r\n    \"amount\": 50.00,\r\n    \"accountNumber\": 12345\r\n}"
       requestBody:
         description: Payment info for the payment
         content:

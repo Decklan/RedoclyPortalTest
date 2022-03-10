@@ -18,7 +18,7 @@ paths:
       tags:
         - Customer
       summary: Creates a new customer
-      description: "Sample Request:\r\nPOST /Customer/CreateNewCustomer\r\n{\r\n    \"firstName\": \"Old\",\r\n    \"lastName\": \"Greg\"\r\n}"
+      # description: "Sample Request:\r\nPOST /Customer/CreateNewCustomer\r\n{\r\n    \"firstName\": \"Old\",\r\n    \"lastName\": \"Greg\"\r\n}"
       requestBody:
         description: The first and last name of the new customer to create
         content:
