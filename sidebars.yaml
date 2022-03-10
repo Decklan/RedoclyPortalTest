@@ -1,82 +1,45 @@
 training:
   - page: developer-portal/index.md
-  - group: Training exercises
-    expanded: true
-    pages:
-      - label: Setup
-        page: developer-portal/setup.md
-      - label: Markdown
-        page: developer-portal/markdown.md
-      - label: Folder structure
-        page: developer-portal/awesome/folders.md
-      - label: Mermaid diagrams
-        page: developer-portal/mermaid.md
-      - label: Page table of contents
-        page: developer-portal/page-table-of-contents.md
-      - separator: This is a separator
-      - label: Sidebar navigation
-        page: developer-portal/sidebar-nav.md
-      - label: Search
-        page: developer-portal/search.md
-      - label: Top nav and footers
-        page: developer-portal/nav-footer.md
-      - label: Logo and favicon
-        page: developer-portal/logo.md
-      - label: Metadata
-        page: developer-portal/metadata.md
-      - label: Colors
-        page: developer-portal/colors.md
-      - label: Typography
-        page: developer-portal/typography.md
-      - label: Analytics
-        page: developer-portal/analytics.md
-      - label: Home page
-        page: developer-portal/home-page.md
-      - label: Adding API reference docs
-        page: developer-portal/oas-definitions.md
-      - label: Adding an API response to an MDX page
-        page: developer-portal/mdx.mdx
-      - label: Creating React components
-        page: developer-portal/custom-component.mdx
-  - group: Petstore reference
-    expanded: false
-    pages:
-      - page: openapi/reference.page.yaml/*
+  - page: pages/more-cool-stuff.md
   - group: WeatherForecastApi
     expanded: false
     pages:
+      - label: WeatherForecastApi
+        page: pages/weatherforecastinfo.md
       - page: openapi/weatherforecast.page.yaml/*
   - group: BillingApi
     expanded: false
     pages:
+      - label: Information
+        page: pages/BillingApiInformation.md
       - page: openapi/billing.page.yaml/*
   - group: CustomerApi
     expanded: false
     pages: 
       - page: openapi/customer.page.yaml/*
 
-  - group: Admin
-    expanded: true
+  - group: Nesting
+    expanded: false
     pages:
-      - group: Routine
+      - group: Within nesting
         expanded: true
         pages:
-          - group: Rock
+          - group: Within even more nesting
             expanded: true
             pages:
-              - group: Paper
+              - group: Kinda
                 expanded: true
                 pages:
-                  - group: Scissors
+                  - group: Like
                     expanded: true
                     pages:
-                      - group: 1-2-3
+                      - group: a weird
                         expanded: true
                         pages:
-                          - group: Go
+                          - group: Nesting
                             expanded: true
                             pages:
-                              - label: Upgrading
+                              - label: Doll
                                 # page: developer-portal/upgrade.md
 alternative:
   - page: developer-portal/sidebar-alternative.md

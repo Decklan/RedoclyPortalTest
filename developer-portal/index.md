@@ -1,24 +1,21 @@
 ---
-title: Training program
+title: Developer Portal
 ---
 
-# Training program
+# Developer Portal
 
-This interactive training program is designed to help you understand how to create and edit content using Redocly's developer portal.
-It's a great companion to our [developer portal docs](https://docs.redoc.ly/developer-portal/introduction/).
+We can do single pages of information.
 
-Spend between an hour and a day playing with the most commonly utilized features.
-
-## Prerequisites
-- Basic Git and markdown knowledge
-- Node and yarn installed
-- A text editor or IDE (we like VS Code)
-- [Setup the developer portal](setup.md)
+## Cool Markdown List
+- Super cool info
+- Urgent News Bulletin
+- No one ever cares about the last thing on the list
 
 ## Training exercises
 
-Follow the training exercises sequentially.
-Or cherry-pick them independently if you're limited on time.
+[Setup the developer portal](setup.md)
+
+Follow the training exercises sequentially or cherry-pick them based on what sounds interesting.
 
 - [Plain markdown pages](markdown.md)
 - [Changing the url paths](awesome/folders.md)

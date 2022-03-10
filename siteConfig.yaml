@@ -14,7 +14,6 @@ logo:
 toc:
   enable: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
   weatherforecast: ./openapi/weatherforecast.yaml
   customer: https://api.redoc.ly/registry/bundle/testorganization-ibx/CustomerApi/v1/openapi.yaml?branch=main
   billing: https://api.redoc.ly/registry/bundle/testorganization-ibx/BillingApi/v1/openapi.yaml?branch=main
