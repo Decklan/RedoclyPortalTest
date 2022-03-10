@@ -49,11 +49,11 @@ training:
   - group: BillingApi
     expanded: false
     pages:
-      -page: openapi/billing.page.yaml/*
+      - page: openapi/billing.page.yaml/*
   - group: CustomerApi
     expanded: false
     pages: 
-      -page: openapi/customer.page.yaml/*
+      - page: openapi/customer.page.yaml/*
 
   - group: Admin
     expanded: true
