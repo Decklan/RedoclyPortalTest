@@ -46,6 +46,10 @@ training:
     expanded: false
     pages:
       - page: openapi/weatherforecast.page.yaml/*
+  - group: CustomerApi
+    expanded: false
+    pages: 
+      -page: openapi/customer.page.yaml/*
 
   - group: Admin
     expanded: true
