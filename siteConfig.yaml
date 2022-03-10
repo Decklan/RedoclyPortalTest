@@ -16,7 +16,8 @@ toc:
 oasDefinitions:
   petstore: ./openapi/petstore.yaml
   weatherforecast: ./openapi/weatherforecast.yaml
-  customer: https://api.redoc.ly/registry/bundle/testorganization-ibx/CustomerApi/v1/openapi.yaml?branch=main
+  customer: ./openapi/customer.yaml
+  billing: ./openapi/billing.yaml
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
