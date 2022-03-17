@@ -1,0 +1,16 @@
+pages:
+  - label: Home
+    page: index.mdx
+  - label: Tabs vs Spaces
+    page: tabs-vs-spaces.md
+  - label: Argument Signatures
+    page: argument-signatures.md
+  - group: GitHub
+    expanded: false
+    pages:
+      - label: Branching
+        page: branching.md
+      - label: Merging
+        page: merging.md
+      - label: Code Reviews
+        page: code-reviews.md

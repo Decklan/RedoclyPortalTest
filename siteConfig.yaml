@@ -30,12 +30,14 @@ stylesheets:
 #  - ./static/intercom.js
 nav:
 
-  - label: Training exercises
-    page: developer-portal/index.md
+  - label: Applications
+    page: applications/index.md
 
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://redoc.ly/docs/developer-portal/introduction/
+  - label: Standards & Practices
+    page: standards/index.mdx
+
+  - label: API Docs
+    page: developer-portal/index.mdx
 
   - search: true
 

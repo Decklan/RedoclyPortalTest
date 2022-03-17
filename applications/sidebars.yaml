@@ -1,0 +1,5 @@
+pages:
+  - label: Home
+    page: index.md
+  - label: Applications
+    page: Applications.md

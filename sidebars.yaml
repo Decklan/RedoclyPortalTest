@@ -1,6 +1,5 @@
 training:
-  - page: developer-portal/index.md
-  - page: pages/more-cool-stuff.md
+  - page: developer-portal/index.mdx
   - group: WeatherForecastApi
     expanded: false
     pages:
@@ -16,6 +15,7 @@ training:
   - group: CustomerApi
     expanded: false
     pages: 
+      - page: pages/CustomerApiInformation.mdx
       - page: openapi/customer.page.yaml/*
 
   - group: Nesting

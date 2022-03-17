@@ -1,0 +1,42 @@
+---
+title: API Documentation
+---
+
+import {
+  LandingLayout,
+  Button,
+  Box,
+  FlexSection,
+  Flex,
+  Jumbotron,
+  ThinTile,
+  WideTile,
+  Emphasis,
+  H1,
+  H2,
+  SectionHeader,
+  NavBar,
+} from '@redocly/developer-portal/ui';
+
+import icon3 from '../images/icon3.png';
+import customer from '../images/customer.png';
+import weather from '../images/weather.png';
+
+export default LandingLayout;
+
+<Box my={25}>
+    <SectionHeader>
+        Here you can find information about all the APIs that Fergie <Emphasis>haphazardly</Emphasis> tossed together for this demo.
+    </SectionHeader>
+    <FlexSection justifyContent="space-around" flexWrap="wrap">
+        <ThinTile to="../pages/BillingApiInformation.md" icon={icon3} header="BillingApi">
+            This is an API for all things Billing related (theoretically).
+        </ThinTile>
+        <ThinTile to="../pages/CustomerApiInformation.mdx" icon={customer} header="CustomerApi">
+            This is an API for all things Customer related (hypothetically).
+        </ThinTile>
+        <ThinTile to="../pages/weatherforecastinfo.md" icon={weather} header="WeatherForecastApi">
+            This is an API for all things Weather related. Let's be honest.. how often are weather people actually right about the weather?
+        </ThinTile>
+    </FlexSection>
+</Box>
